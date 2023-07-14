@@ -1,0 +1,474 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec1 {
+    height: 100vh;
+    background: url("images/bg_1.jpg");
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+
+.black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0,0.6);
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    padding-top: 30px !important;
+    z-index: 1;
+}
+
+.sec1 .navbar-brand {
+    font-weight: 600;
+}
+
+.sec1 .navbar li {
+    margin-left: 15px;
+}
+.sec1 .navbar li a{
+    font-size: 15px;
+    color: white !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.sec1 .navbar .navbar-nav .active a,
+.sec1 .navbar .navbar-nav a:hover  {
+    color: #f7b71f !important;
+    transition: 0.2s;
+}
+
+.sec1 .container .row {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.sec1 .sagicerik {
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.sec1 .sagicerik h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.sec1 .sagicerik label {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sec1 .sagicerik input[type="submit"] {
+    background-color: #f7b71f !important;
+    border: 1px solid #f7b71f !important;
+    padding: 15px !important;
+}
+
+.sec1 .sagicerik input[type="text"]{
+    font-size: 12px;
+}
+
+.sec2 input[type="submit"]{
+    position: absolute;
+    left: 35px;
+    top: 31px;
+    width: 90%;
+    background-color: #f7b71f;
+    border: 1px solid #f7b71f;
+}
+
+.sec3 {
+    margin-top: 20px;
+}
+
+.sec3 p:first-child{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-size: 15px;
+}
+
+.sec3 h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sec3 .row {
+    margin-left: 20px;
+}
+
+.sec3 .row i {
+    font-size: 20px;
+    color: orange;
+}
+
+.sec3 .row h5 {
+    display: inline-block;
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+
+.sec3 .article {
+    margin-bottom: 20px;
+}
+
+
+.sec4{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sec4 p {
+    font-size: 12px;
+    color: #f7b71f;
+    font-weight: 600;
+}
+
+.sec4 h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.sec4 .ticket {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ababab;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.sec4 .ticket .imag {
+    width: 100%;
+    height: 200px;
+    background-size: cover !important;
+    position: relative;
+    background-position: center center !important;
+}
+
+
+.sec4 .ticket h5 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000;
+}
+
+.sec4 .ticket p {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.sec4 .ticket .buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec4 .ticket .buttons .btn {
+    width: 45%;
+    color: #000;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+
+.sec4 .ticket .buttons .btn:hover {
+    background-color: #fc983c !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.sec4 .ticket .dollar {
+    font-size: 20px;
+    padding: 10px;
+    color: #f7b71f;
+}
+
+.sec4 .ticket .price p {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.sec4 .price .from-day span {
+    display: block;
+    font-size: 10px;
+}
+
+.sec4 .price{
+    background-color: white;
+}
+
+.sec5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100vh;
+    background: url('images/bg_2.jpg');
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+    color: white;
+}
+
+.sec5 .container {
+    z-index: 999;
+    text-align: center;
+}
+
+.sec5 p {
+    margin-top: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.sec5 h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 200px !important;
+}
+
+.sec5 .pic {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    border: 2px solid #f7b71f;
+    border-radius: 100%;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+.sec5 .content h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sec5 .content p {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.sec6 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sec6 p{
+    font-size: 15px;
+    color: #f7b71f;
+    font-weight: 600;
+}
+
+.sec6 h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+
+.sec6 .card {
+    text-align: center;
+    height: 100%;
+}
+
+.sec6 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.sec6 .card p {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    font-weight: 500;
+}
+
+.sec6 .card h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f7b71f;
+}
+
+.sec6 .card span {
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 600;
+}
+
+.sec7 {
+    margin-top: 100px;
+}
+
+.sec7 .pic{
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.sec7 article .title p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #f7b71f;
+}
+
+.sec7 article .title h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 70px;
+}
+
+.sec7 article p {
+    margin-bottom: 50px;
+}
+
+.sec7 article {
+    padding: 40px;
+}
+
+.sec7 article .btn {
+    background-color: #f7b71f;
+    color: white;
+}
+
+.sec7 .row {
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 50px;
+}
+
+.sec8 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec8 p {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.sec8 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sec8 li{
+    list-style: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sec8 .fb {
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 71, 71);;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.sec8 .twtt{
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 71, 71);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.sec8 .insta {
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 71, 71);;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.sec8 .icons {
+    position: relative;
+    margin-top: 40px;
+}
+
+.sec8 .license {
+    margin-top: 70px;
+}
+
+.sec2, .sec3,.sec4,.sec5,.sec6,.sec7,footer {
+    opacity: 0;
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    .sec7 .pic {
+        height: 600px !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .sec5 {
+        height: 1500px !important;
+    }
+    .sec5 .content {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+    .navbar {
+        background: rgba(0,0,0,0.8);
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .sec1 {
+        height: 1050px !important;
+    }
+
+    h2 {
+        margin-top: 55px !important;
+    }
+    
+}
